@@ -10,6 +10,54 @@
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.section_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    padding-top: 62px;
+    padding-bottom: 17px;
+}
+
+.section_wrap-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+    padding-top: 24px;
+
+}
+
+.textt {
+    padding-top: 18px;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+.text_wrap {
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+=======
 
 }
 

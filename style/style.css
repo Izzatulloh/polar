@@ -67,3 +67,211 @@
     cursor: pointer;
 
 }
+=======
+.intro{
+    background-color: #F2CEDA;
+    height: 862px;
+    display: flex;
+    align-items: center;
+     
+}
+.intro_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro_left{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.p{
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 10%;
+
+}
+.intro_title{
+    font-size:  50px;
+    line-height: 121%;
+    letter-spacing: 0%;
+    color: black;
+}
+.intro_title span{
+    color: red;
+}
+.intro_btn{
+    padding: 10px 50px;
+    border-radius: 8px;
+    background-color: #D23166;
+    border: unset;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.intro_btn:hover{
+    background-color: #fff;
+    color: #D23166;
+    
+}
+.intro_box img{
+    height: 530px;
+    width: 530px;
+}
+=======
+
+.section_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    padding-top: 62px;
+    padding-bottom: 17px;
+}
+
+.section_wrap-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+    padding-top: 24px;
+
+}
+
+.textt {
+    padding-top: 18px;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+.text_wrap {
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+=======
+
+}
+
+.islom_box {
+    display: flex;
+    background-color: #F8EDF0;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+}
+
+.sugar_box {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+    width: 442px;
+    height: 256.7050476074219px;
+}
+
+.islom_title {
+    width: 349px;
+    /* height: 98.2698974609375px; */
+    font-family: Hind Madurai;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 111.00000000000001%;
+}
+
+.islom_text {
+    width: 442px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16.04px;
+    margin-bottom: 35.1px;
+    color: #150101;
+    opacity: 60%;
+}
+
+.islom_btn {
+    width: 165px;
+    height: 49.13494873046875px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    border: 1px;
+    background-color: #D64374;
+    color: #FAFAFA;
+    border-radius: 5px;
+
+=======
+    display: flex;
+}
+
+.ice_cream {
+    width: 580px;
+    height: 415px;
+    top: 2140px;
+    left: 251px;
+    border-radius: 10px;
+
+}
+
+.title {
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    width: 152px;
+    height: 36px;
+    top: 2200px;
+    left: 916px;
+
+}
+
+.text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 454px;
+    height: 67px;
+    opacity: 0.7;
+    top: 2247px;
+    left: 916px;
+
+
+}
+
+.cost {
+    font-family: "Hind Madurai";
+    font-weight: 500px;
+    font-size: 26px;
+    line-height: 100%;
+
+}
+
+.buy {
+    width: 165px;
+    height: 49px;
+    top: 2385px;
+    left: 916px;
+    border-radius: 5px;
+    background: #D64374;
+    color: #fff;
+
+}
